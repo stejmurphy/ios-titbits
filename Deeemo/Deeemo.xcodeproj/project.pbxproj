@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604210AC1D3AA2C200BCB4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604210AB1D3AA2C200BCB4A7 /* AppDelegate.swift */; };
+		604210AE1D3AA2C200BCB4A7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604210AD1D3AA2C200BCB4A7 /* MasterViewController.swift */; };
+		604210B01D3AA2C200BCB4A7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604210AF1D3AA2C200BCB4A7 /* DetailViewController.swift */; };
+		604210B31D3AA2C200BCB4A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604210B11D3AA2C200BCB4A7 /* Main.storyboard */; };
+		604210B51D3AA2C200BCB4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604210B41D3AA2C200BCB4A7 /* Assets.xcassets */; };
+		604210B81D3AA2C200BCB4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604210B61D3AA2C200BCB4A7 /* LaunchScreen.storyboard */; };
+		604210C31D3AA2C200BCB4A7 /* DeeemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604210C21D3AA2C200BCB4A7 /* DeeemoTests.swift */; };
+		604210CE1D3AA2C200BCB4A7 /* DeeemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604210CD1D3AA2C200BCB4A7 /* DeeemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		604210BF1D3AA2C200BCB4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604210A01D3AA2C200BCB4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604210A71D3AA2C200BCB4A7;
+			remoteInfo = Deeemo;
+		};
+		604210CA1D3AA2C200BCB4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604210A01D3AA2C200BCB4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604210A71D3AA2C200BCB4A7;
+			remoteInfo = Deeemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		604210A81D3AA2C200BCB4A7 /* Deeemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deeemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		604210AB1D3AA2C200BCB4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		604210AD1D3AA2C200BCB4A7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		604210AF1D3AA2C200BCB4A7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		604210B21D3AA2C200BCB4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		604210B41D3AA2C200BCB4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		604210B71D3AA2C200BCB4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		604210B91D3AA2C200BCB4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604210BE1D3AA2C200BCB4A7 /* DeeemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		604210C21D3AA2C200BCB4A7 /* DeeemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeemoTests.swift; sourceTree = "<group>"; };
+		604210C41D3AA2C200BCB4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604210C91D3AA2C200BCB4A7 /* DeeemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		604210CD1D3AA2C200BCB4A7 /* DeeemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeemoUITests.swift; sourceTree = "<group>"; };
+		604210CF1D3AA2C200BCB4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		604210A51D3AA2C200BCB4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604210BB1D3AA2C200BCB4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604210C61D3AA2C200BCB4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6042109F1D3AA2C200BCB4A7 = {
+			isa = PBXGroup;
+			children = (
+				604210AA1D3AA2C200BCB4A7 /* Deeemo */,
+				604210C11D3AA2C200BCB4A7 /* DeeemoTests */,
+				604210CC1D3AA2C200BCB4A7 /* DeeemoUITests */,
+				604210A91D3AA2C200BCB4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		604210A91D3AA2C200BCB4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				604210A81D3AA2C200BCB4A7 /* Deeemo.app */,
+				604210BE1D3AA2C200BCB4A7 /* DeeemoTests.xctest */,
+				604210C91D3AA2C200BCB4A7 /* DeeemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604210AA1D3AA2C200BCB4A7 /* Deeemo */ = {
+			isa = PBXGroup;
+			children = (
+				604210AB1D3AA2C200BCB4A7 /* AppDelegate.swift */,
+				604210AD1D3AA2C200BCB4A7 /* MasterViewController.swift */,
+				604210AF1D3AA2C200BCB4A7 /* DetailViewController.swift */,
+				604210B11D3AA2C200BCB4A7 /* Main.storyboard */,
+				604210B41D3AA2C200BCB4A7 /* Assets.xcassets */,
+				604210B61D3AA2C200BCB4A7 /* LaunchScreen.storyboard */,
+				604210B91D3AA2C200BCB4A7 /* Info.plist */,
+			);
+			path = Deeemo;
+			sourceTree = "<group>";
+		};
+		604210C11D3AA2C200BCB4A7 /* DeeemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				604210C21D3AA2C200BCB4A7 /* DeeemoTests.swift */,
+				604210C41D3AA2C200BCB4A7 /* Info.plist */,
+			);
+			path = DeeemoTests;
+			sourceTree = "<group>";
+		};
+		604210CC1D3AA2C200BCB4A7 /* DeeemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				604210CD1D3AA2C200BCB4A7 /* DeeemoUITests.swift */,
+				604210CF1D3AA2C200BCB4A7 /* Info.plist */,
+			);
+			path = DeeemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		604210A71D3AA2C200BCB4A7 /* Deeemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604210D21D3AA2C200BCB4A7 /* Build configuration list for PBXNativeTarget "Deeemo" */;
+			buildPhases = (
+				604210A41D3AA2C200BCB4A7 /* Sources */,
+				604210A51D3AA2C200BCB4A7 /* Frameworks */,
+				604210A61D3AA2C200BCB4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deeemo;
+			productName = Deeemo;
+			productReference = 604210A81D3AA2C200BCB4A7 /* Deeemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		604210BD1D3AA2C200BCB4A7 /* DeeemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604210D51D3AA2C200BCB4A7 /* Build configuration list for PBXNativeTarget "DeeemoTests" */;
+			buildPhases = (
+				604210BA1D3AA2C200BCB4A7 /* Sources */,
+				604210BB1D3AA2C200BCB4A7 /* Frameworks */,
+				604210BC1D3AA2C200BCB4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604210C01D3AA2C200BCB4A7 /* PBXTargetDependency */,
+			);
+			name = DeeemoTests;
+			productName = DeeemoTests;
+			productReference = 604210BE1D3AA2C200BCB4A7 /* DeeemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		604210C81D3AA2C200BCB4A7 /* DeeemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604210D81D3AA2C200BCB4A7 /* Build configuration list for PBXNativeTarget "DeeemoUITests" */;
+			buildPhases = (
+				604210C51D3AA2C200BCB4A7 /* Sources */,
+				604210C61D3AA2C200BCB4A7 /* Frameworks */,
+				604210C71D3AA2C200BCB4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604210CB1D3AA2C200BCB4A7 /* PBXTargetDependency */,
+			);
+			name = DeeemoUITests;
+			productName = DeeemoUITests;
+			productReference = 604210C91D3AA2C200BCB4A7 /* DeeemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604210A01D3AA2C200BCB4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Stephen Murphy";
+				TargetAttributes = {
+					604210A71D3AA2C200BCB4A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FVN2Y696N4;
+					};
+					604210BD1D3AA2C200BCB4A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 604210A71D3AA2C200BCB4A7;
+					};
+					604210C81D3AA2C200BCB4A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 604210A71D3AA2C200BCB4A7;
+					};
+				};
+			};
+			buildConfigurationList = 604210A31D3AA2C200BCB4A7 /* Build configuration list for PBXProject "Deeemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6042109F1D3AA2C200BCB4A7;
+			productRefGroup = 604210A91D3AA2C200BCB4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604210A71D3AA2C200BCB4A7 /* Deeemo */,
+				604210BD1D3AA2C200BCB4A7 /* DeeemoTests */,
+				604210C81D3AA2C200BCB4A7 /* DeeemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		604210A61D3AA2C200BCB4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604210B81D3AA2C200BCB4A7 /* LaunchScreen.storyboard in Resources */,
+				604210B51D3AA2C200BCB4A7 /* Assets.xcassets in Resources */,
+				604210B31D3AA2C200BCB4A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604210BC1D3AA2C200BCB4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604210C71D3AA2C200BCB4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604210A41D3AA2C200BCB4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604210B01D3AA2C200BCB4A7 /* DetailViewController.swift in Sources */,
+				604210AE1D3AA2C200BCB4A7 /* MasterViewController.swift in Sources */,
+				604210AC1D3AA2C200BCB4A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604210BA1D3AA2C200BCB4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604210C31D3AA2C200BCB4A7 /* DeeemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604210C51D3AA2C200BCB4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604210CE1D3AA2C200BCB4A7 /* DeeemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		604210C01D3AA2C200BCB4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604210A71D3AA2C200BCB4A7 /* Deeemo */;
+			targetProxy = 604210BF1D3AA2C200BCB4A7 /* PBXContainerItemProxy */;
+		};
+		604210CB1D3AA2C200BCB4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604210A71D3AA2C200BCB4A7 /* Deeemo */;
+			targetProxy = 604210CA1D3AA2C200BCB4A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		604210B11D3AA2C200BCB4A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604210B21D3AA2C200BCB4A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		604210B61D3AA2C200BCB4A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604210B71D3AA2C200BCB4A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		604210D01D3AA2C200BCB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		604210D11D3AA2C200BCB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		604210D31D3AA2C200BCB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Deeemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deeemo.Deeemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		604210D41D3AA2C200BCB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Deeemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deeemo.Deeemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		604210D61D3AA2C200BCB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeeemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deeemo.DeeemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deeemo.app/Deeemo";
+			};
+			name = Debug;
+		};
+		604210D71D3AA2C200BCB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeeemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deeemo.DeeemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deeemo.app/Deeemo";
+			};
+			name = Release;
+		};
+		604210D91D3AA2C200BCB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeeemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deeemo.DeeemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Deeemo;
+			};
+			name = Debug;
+		};
+		604210DA1D3AA2C200BCB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeeemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deeemo.DeeemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Deeemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604210A31D3AA2C200BCB4A7 /* Build configuration list for PBXProject "Deeemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604210D01D3AA2C200BCB4A7 /* Debug */,
+				604210D11D3AA2C200BCB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604210D21D3AA2C200BCB4A7 /* Build configuration list for PBXNativeTarget "Deeemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604210D31D3AA2C200BCB4A7 /* Debug */,
+				604210D41D3AA2C200BCB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		604210D51D3AA2C200BCB4A7 /* Build configuration list for PBXNativeTarget "DeeemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604210D61D3AA2C200BCB4A7 /* Debug */,
+				604210D71D3AA2C200BCB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		604210D81D3AA2C200BCB4A7 /* Build configuration list for PBXNativeTarget "DeeemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604210D91D3AA2C200BCB4A7 /* Debug */,
+				604210DA1D3AA2C200BCB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 604210A01D3AA2C200BCB4A7 /* Project object */;
+}
