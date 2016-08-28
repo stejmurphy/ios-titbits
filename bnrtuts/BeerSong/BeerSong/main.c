@@ -32,5 +32,5 @@ void singSongFor(int numberOfBottles){
 
 int main(int argc, const char * argv[]) {
    //We could sing 99 verses, but 4 is easier to think about
-    singSongFor(40);
+    singSongFor(4);
 }
